@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustração de um centro de atividades</title>
+  <desc id="desc">Linha temporal abstrata com registos organizados e indicadores visuais.</desc>
+  <rect width="720" height="480" rx="36" fill="#e7efe9"/>
+  <rect x="106" y="48" width="508" height="384" rx="24" fill="#fff" stroke="#c9d8cd" stroke-width="3"/>
+  <rect x="145" y="83" width="190" height="20" rx="10" fill="#17643b"/>
+  <path d="M175 143v230" stroke="#c9d8cd" stroke-width="6" stroke-linecap="round"/>
+  <g>
+    <circle cx="175" cy="163" r="13" fill="#17643b"/>
+    <circle cx="175" cy="234" r="13" fill="#d99a2b"/>
+    <circle cx="175" cy="305" r="13" fill="#17643b"/>
+    <circle cx="175" cy="376" r="13" fill="#d99a2b"/>
+  </g>
+  <g fill="#eef4ef" stroke="#d7e0da" stroke-width="2">
+    <rect x="211" y="137" width="354" height="52" rx="12"/>
+    <rect x="211" y="208" width="354" height="52" rx="12"/>
+    <rect x="211" y="279" width="354" height="52" rx="12"/>
+    <rect x="211" y="350" width="354" height="52" rx="12"/>
+  </g>
+  <g fill="#66756c">
+    <rect x="234" y="154" width="165" height="10" rx="5"/>
+    <rect x="234" y="225" width="205" height="10" rx="5"/>
+    <rect x="234" y="296" width="146" height="10" rx="5"/>
+    <rect x="234" y="367" width="188" height="10" rx="5"/>
+  </g>
+</svg>

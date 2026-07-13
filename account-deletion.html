@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-AO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eliminação de conta e dados — MyPME</title>
+  <meta name="description" content="Saiba como eliminar a conta MyPME, os registos associados e os dados locais, ou como pedir assistência por e-mail.">
+  <!-- Placeholder: substituir pelo endereço público confirmado antes da publicação. -->
+  <link rel="canonical" href="https://judilsong01-cell.github.io/mypme-site/account-deletion.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="pt_AO">
+  <meta property="og:title" content="Eliminação de conta e dados — MyPME">
+  <meta property="og:description" content="Passos, dados abrangidos, funcionamento offline e pedido alternativo de eliminação no MyPME.">
+  <link rel="icon" href="assets/logo-placeholder.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+  <header class="site-header"><div class="container nav-shell"><a class="brand" href="index.html" aria-label="MyPME — página inicial"><img src="assets/logo-placeholder.svg" alt="" width="36" height="36"><span>MyPME</span></a><nav class="site-nav" aria-label="Navegação principal"><a href="index.html">Início</a><a href="account-deletion.html" aria-current="page">Eliminar conta</a><a href="support.html">Suporte</a><a href="privacy-policy.html">Privacidade</a></nav></div></header>
+  <main id="conteudo">
+    <header class="legal-hero container"><p class="eyebrow">MyPME · com.judilson.mypme</p><h1>Eliminação de conta e dados</h1><p class="muted">Informação para utilizadores da aplicação Android MyPME.</p></header>
+    <div class="container legal-layout">
+      <nav class="toc" aria-label="Índice da página"><strong>Nesta página</strong><a href="#aplicacao">Dentro da aplicação</a><a href="#dados">Dados eliminados</a><a href="#retomavel">Processo retomável</a><a href="#offline">Dispositivos offline</a><a href="#publicidade">Publicidade</a><a href="#email">Pedido por e-mail</a></nav>
+      <article class="legal-content">
+        <p class="notice"><strong>Responsável:</strong> Antonio Augusto, programador independente do MyPME, Angola.<br><strong>Aplicação:</strong> MyPME · <strong>Pacote:</strong> <code>com.judilson.mypme</code></p>
+        <section id="aplicacao">
+          <h2>Eliminar dentro da aplicação</h2>
+          <ol>
+            <li>Inicie sessão no MyPME.</li>
+            <li>Abra <strong>Mais</strong>.</li>
+            <li>Em <strong>Sessão e segurança</strong>, toque em <strong>Eliminar conta e dados</strong>.</li>
+            <li>Leia e aceite as duas confirmações apresentadas.</li>
+            <li>Volte a autenticar-se com Google ou com a palavra-passe atual.</li>
+            <li>Confirme <strong>Eliminar definitivamente</strong>.</li>
+          </ol>
+          <p>A reautenticação é concluída antes da primeira ação destrutiva. Não feche a aplicação deliberadamente enquanto o processo estiver em curso.</p>
+        </section>
+        <section id="dados">
+          <h2>Dados abrangidos</h2>
+          <p>A eliminação controlada pelo MyPME abrange a conta Firebase Authentication, documento e perfil do utilizador e os registos Firestore conhecidos: transações, fiados, pagamentos de fiados, produtos, vendas, itens e categorias de catálogo, atividades e fila de sincronização.</p>
+          <p>O fluxo também elimina SQLite, estado local, PDFs temporários e logótipo privado deste dispositivo depois da conclusão remota, conforme o estado guardado.</p>
+        </section>
+        <section id="retomavel">
+          <h2>Processo retomável</h2>
+          <p>As coleções são eliminadas em lotes, verificadas e processadas numa ordem definida. O progresso é guardado localmente antes das ações destrutivas para permitir retomar uma interrupção. Uma falha não é apresentada como conclusão.</p>
+          <p>Se uma falha ocorrer antes da eliminação da conta Firebase Authentication, a aplicação preserva a sessão e os dados locais para permitir uma tentativa posterior. Se a conta já tiver sido eliminada e a limpeza local estiver pendente, a aplicação procura concluir essa limpeza no arranque seguinte.</p>
+        </section>
+        <section id="offline">
+          <h2>Dispositivos offline e retenção</h2>
+          <p>Dados ainda existentes apenas num dispositivo offline podem permanecer até que a aplicação volte a estabelecer ligação e conclua a limpeza, até que os dados da aplicação sejam eliminados nas definições do Android, ou até que a aplicação seja desinstalada.</p>
+          <p>Pedidos serão processados assim que razoavelmente possível, sujeitos à verificação de identidade e a requisitos legais de retenção realmente aplicáveis. Não é prometido um prazo fixo.</p>
+        </section>
+        <section id="publicidade">
+          <h2>Publicidade, identificadores e eliminação</h2>
+          <p>Eliminar a conta MyPME não apagará necessariamente informações tratadas de forma independente pela Google para publicidade, medição, segurança, conformidade ou prevenção de fraude.</p>
+          <p>O utilizador pode gerir, repor ou eliminar o identificador de publicidade Android nas definições do Android. Quando exigidas pelo estado Google UMP, as opções de privacidade publicitária podem ser consultadas ou atualizadas através da entrada apresentada pela aplicação.</p>
+        </section>
+        <section id="email">
+          <h2>Pedido alternativo por e-mail</h2>
+          <p>Se não conseguir usar o fluxo da aplicação, envie um pedido para <a href="mailto:judilsong01@gmail.com?subject=Elimina%C3%A7%C3%A3o%20de%20conta%20MyPME">judilsong01@gmail.com</a> com o assunto “Eliminação de conta MyPME”. O pedido pode iniciar a eliminação dos dados remotos controlados pelo MyPME depois da verificação de identidade.</p>
+          <p class="notice"><strong>Nunca envie a sua palavra-passe por e-mail.</strong> O responsável não precisa da palavra-passe para analisar um pedido de suporte ou eliminação.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/logo-placeholder.svg" alt="" width="36" height="36"><span>MyPME</span></a><p class="muted">Gestão para pequenos negócios em Angola.</p></div><div class="footer-links"><strong>Informação</strong><a href="privacy-policy.html">Política de Privacidade</a><a href="support.html">Suporte</a></div><div class="footer-links"><strong>Contacto</strong><a href="mailto:judilsong01@gmail.com">judilsong01@gmail.com</a></div></div><p class="copyright">Data de atualização: 13 de julho de 2026.</p></div></footer>
+</body>
+</html>

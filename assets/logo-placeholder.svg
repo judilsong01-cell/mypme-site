@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Símbolo gráfico do MyPME</title>
+  <desc id="desc">Formas geométricas verdes representam organização e crescimento.</desc>
+  <rect width="64" height="64" rx="16" fill="#17643b"/>
+  <path d="M15 44V25l8-7 9 7 9-7 8 7v19h-8V30l-9 7-9-7v14z" fill="#fff"/>
+  <path d="M15 48h34" stroke="#d99a2b" stroke-width="4" stroke-linecap="round"/>
+</svg>

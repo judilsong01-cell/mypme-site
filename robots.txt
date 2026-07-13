@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Placeholder: substituir judilsong01-cell antes da publicação.
+Sitemap: https://judilsong01-cell.github.io/mypme-site/sitemap.xml
