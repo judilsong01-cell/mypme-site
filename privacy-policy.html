@@ -1,108 +1,35 @@
 <!doctype html>
-<html lang="pt-AO">
+<html lang="pt">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Política de Privacidade — MyPME</title>
-  <meta name="description" content="Saiba como o MyPME trata dados de conta, registos empresariais, armazenamento offline, Firebase, diagnósticos e publicidade.">
-  <!-- Placeholder: substituir pelo endereço público confirmado antes da publicação. -->
-  <link rel="canonical" href="https://judilsong01-cell.github.io/mypme-site/privacy-policy.html">
-  <meta property="og:type" content="article">
-  <meta property="og:locale" content="pt_AO">
-  <meta property="og:title" content="Política de Privacidade — MyPME">
-  <meta property="og:description" content="Informação sobre dados, armazenamento, sincronização, publicidade, direitos e eliminação no MyPME.">
-  <link rel="icon" href="assets/logo-placeholder.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Politica de Privacidade · MyPME</title>
+<link rel="canonical" href="https://mypme-815e7.web.app/privacidade"/>
+<meta http-equiv="refresh" content="0; url=https://mypme-815e7.web.app/privacidade"/>
+<meta name="robots" content="noindex, follow"/>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #f8fafc; color: #0f172a; padding: 24px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0f172a; color: #e2e8f0; }
+  }
+  main { max-width: 34rem; text-align: center; }
+  h1 { font-size: 1.25rem; margin: 0 0 .5rem; }
+  p { margin: 0 0 1rem; }
+  a { color: #2563eb; font-weight: 600; }
+  @media (prefers-color-scheme: dark) { a { color: #60a5fa; } }
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
-  <header class="site-header">
-    <div class="container nav-shell">
-      <a class="brand" href="index.html" aria-label="MyPME — página inicial"><img src="assets/logo-placeholder.svg" alt="" width="36" height="36"><span>MyPME</span></a>
-      <nav class="site-nav" aria-label="Navegação principal"><a href="index.html">Início</a><a href="account-deletion.html">Eliminar conta</a><a href="support.html">Suporte</a><a href="privacy-policy.html" aria-current="page">Privacidade</a></nav>
-    </div>
-  </header>
-  <main id="conteudo">
-    <header class="legal-hero container">
-      <p class="eyebrow">MyPME · com.judilson.mypme</p>
-      <h1>Política de Privacidade</h1>
-      <p class="muted">Data de atualização: 13 de julho de 2026.</p>
-    </header>
-    <div class="container legal-layout">
-      <nav class="toc" aria-label="Índice da política">
-        <strong>Nesta página</strong>
-        <a href="#responsavel">Responsável</a><a href="#dados">Dados tratados</a><a href="#servicos">Serviços</a><a href="#publicidade">Publicidade</a><a href="#consentimento">Consentimento</a><a href="#sincronizacao">Sincronização</a><a href="#retencao">Retenção</a><a href="#seguranca">Segurança</a><a href="#direitos">Direitos</a>
-      </nav>
-      <article class="legal-content">
-        <section id="responsavel">
-          <h2>Responsável e contacto</h2>
-          <p><strong>Antonio Augusto</strong><br>Programador independente do MyPME<br>Angola</p>
-          <p>Questões de privacidade: <a href="mailto:judilsong01@gmail.com">judilsong01@gmail.com</a>.</p>
-          <p>O MyPME é uma aplicação Android de gestão empresarial. Não é apresentado como banco, carteira digital, instituição financeira, plataforma de empréstimos ou processador de pagamentos.</p>
-        </section>
-
-        <section id="dados">
-          <h2>Dados tratados pelo MyPME</h2>
-          <p>A aplicação trata identificadores de conta, estado de autenticação, dados financeiros e um perfil pessoal ou empresarial. O perfil pode incluir nome, responsável, telefone, e-mail de contacto, endereço, NIF, setor e mensagem ao cliente. Também podem ser tratados receitas, despesas, vendas, fiados, pagamentos, produtos, stock e histórico de atividade.</p>
-          <p>O logótipo escolhido permanece no armazenamento privado da aplicação neste dispositivo e não é sincronizado com o Firestore nesta versão. Precisa de ser selecionado novamente noutro dispositivo.</p>
-          <p>Esses dados são usados para criar e proteger a conta, disponibilizar funcionalidades, manter registos no dispositivo, sincronizar informação, recuperar dados associados à conta, gerar relatórios e prestar suporte.</p>
-        </section>
-
-        <section id="servicos">
-          <h2>Serviços técnicos utilizados</h2>
-          <ul>
-            <li><strong>Firebase Authentication:</strong> criação, autenticação, verificação e recuperação de conta por e-mail/palavra-passe ou Google.</li>
-            <li><strong>Cloud Firestore:</strong> sincronização dos registos associados à conta e recuperação noutro dispositivo.</li>
-            <li><strong>Firebase Analytics:</strong> medição de utilização e desempenho conforme a configuração efetiva da aplicação.</li>
-            <li><strong>Firebase Crashlytics:</strong> diagnóstico de falhas, estabilidade e desempenho.</li>
-            <li><strong>SQLite local:</strong> armazenamento no dispositivo para funcionamento offline e acesso rápido.</li>
-          </ul>
-        </section>
-
-        <section id="publicidade">
-          <h2>Publicidade e monetização</h2>
-          <p>O candidato funcional 2.2.0 contém o <strong>Google AdMob / Google Mobile Ads SDK</strong>, Google User Messaging Platform (UMP) e três espaços de banner de teste. Os anúncios reais continuam desativados e os testes usam unidades de demonstração. Uma futura ativação produtiva dependerá de validação, consentimento aplicável e configuração externa.</p>
-          <p>Quando o SDK estiver autorizado a pedir anúncios, a Google poderá recolher ou partilhar informações como endereço IP; localização geral ou aproximada inferida do IP; identificador de publicidade Android; App Set ID; outros identificadores aplicáveis do dispositivo ou da conta; lançamentos da aplicação; toques; interações com a aplicação e anúncios; impressões, cliques, visualizações de vídeo e respostas aos anúncios; dados de diagnóstico, desempenho, estabilidade e tempo de arranque; e sinais usados para prevenção de fraude, abuso, segurança e conformidade.</p>
-          <p>Esses dados poderão ser usados para apresentar anúncios; publicidade e marketing; anúncios personalizados quando permitidos e consentidos; anúncios não personalizados ou limitados; medição e analytics; prevenção de fraude e abuso; segurança; conformidade; e desempenho do serviço.</p>
-          <p>O modo publicitário aplicável poderá depender da região, classificação etária, estado de consentimento, escolhas de privacidade do Android, configuração do AdMob e disponibilidade de identificadores. Não se afirma que todos os anúncios serão personalizados nem que todos serão não personalizados.</p>
-          <p>Os registos financeiros e empresariais inseridos no MyPME não devem ser deliberadamente enviados ao AdMob como parâmetros de segmentação publicitária. O MyPME não vende esses registos. Firebase e fornecedores de publicidade podem, contudo, processar dados nas funções descritas nesta política.</p>
-          <p>A Google pode tratar informações publicitárias de forma independente segundo as suas próprias políticas. Consulte <a href="https://policies.google.com/technologies/partner-sites?hl=pt-PT" rel="noopener noreferrer">como a Google utiliza informações de aplicações que usam os seus serviços</a>.</p>
-        </section>
-
-        <section id="consentimento">
-          <h2>Opções de privacidade e consentimento</h2>
-          <p>A integração foi concebida para consultar o Google UMP em cada arranque relevante e só inicializar pedidos publicitários quando o estado indicar que anúncios podem ser solicitados. Quando o UMP exigir opções de privacidade, a aplicação apresenta uma entrada para consultar ou atualizar essas escolhas.</p>
-          <p>A configuração e o comportamento podem variar conforme a região. O utilizador pode repor ou eliminar o identificador de publicidade Android nas definições de privacidade ou anúncios do Android; a disponibilidade e o nome dessas opções dependem da versão do sistema.</p>
-        </section>
-
-        <section id="sincronizacao">
-          <h2>Armazenamento offline, sincronização e transferências</h2>
-          <p>Os dados podem permanecer na base SQLite do dispositivo para permitir funcionamento offline. Com ligação e uma sessão válida, os registos podem ser sincronizados com o Cloud Firestore e associados ao utilizador autenticado.</p>
-          <p>Google/Firebase atua como fornecedor técnico. Os dados podem ser processados fora de Angola conforme a infraestrutura e as políticas aplicáveis desses serviços. O tráfego dos serviços Firebase e Google Mobile Ads é cifrado em trânsito.</p>
-        </section>
-
-        <section id="retencao">
-          <h2>Retenção e eliminação</h2>
-          <p>Os dados controlados pelo MyPME permanecem enquanto a conta existir e conforme necessário para fornecer o serviço. A eliminação implementada abrange as coleções conhecidas no Firestore, perfil e documento do utilizador, conta Firebase Authentication e limpeza local conforme o fluxo retomável.</p>
-          <p>Relatórios e comprovativos PDF são criados localmente em diretórios controlados e tratados como temporários. O MyPME limpa as suas cópias no logout, troca de conta, eliminação e manutenção periódica. Uma cópia guardada ou partilhada noutra aplicação fica sob controlo do utilizador.</p>
-          <p>Comprovativos de venda e de fiado são documentos comerciais não fiscais; não são faturas fiscais certificadas.</p>
-          <p>Eliminar a conta MyPME não garante a eliminação automática de informações tratadas independentemente pela Google para publicidade, medição, segurança, conformidade ou prevenção de fraude. Consulte também <a href="account-deletion.html">como eliminar a conta e os dados</a>.</p>
-        </section>
-
-        <section id="seguranca">
-          <h2>Segurança e limitações</h2>
-          <p>Os caminhos Firestore são isolados por utilizador autenticado, o Android usa o isolamento da aplicação e a cópia de segurança Android está desativada. A base SQLite não é cifrada ao nível da aplicação; um dispositivo comprometido ou com acesso root aumenta o risco. Nenhum sistema é absolutamente seguro.</p>
-        </section>
-
-        <section id="direitos">
-          <h2>Direitos, crianças e alterações</h2>
-          <p>O utilizador pode consultar, corrigir ou eliminar registos no MyPME, eliminar a conta e pedir assistência por e-mail. Pedidos podem exigir confirmação de identidade e estarão sujeitos apenas a retenções legalmente aplicáveis.</p>
-          <p>O MyPME destina-se à gestão empresarial e não foi concebido para crianças. Não afirmamos que exista verificação etária. A classificação etária e a configuração publicitária devem ser confirmadas antes de um lançamento com publicidade real.</p>
-          <p>Esta política poderá ser atualizada quando as funcionalidades, fornecedores, requisitos legais ou configurações relevantes mudarem. A data de atualização será indicada nesta página.</p>
-        </section>
-      </article>
-    </div>
-  </main>
-  <footer class="site-footer"><div class="container"><div class="footer-grid"><div><a class="brand" href="index.html"><img src="assets/logo-placeholder.svg" alt="" width="36" height="36"><span>MyPME</span></a><p class="muted">Gestão para pequenos negócios em Angola.</p></div><div class="footer-links"><strong>Informação</strong><a href="account-deletion.html">Eliminação de conta</a><a href="support.html">Suporte</a></div><div class="footer-links"><strong>Contacto</strong><a href="mailto:judilsong01@gmail.com">judilsong01@gmail.com</a></div></div><p class="copyright">© 2026 Antonio Augusto. Programador independente do MyPME.</p></div></footer>
+<main>
+  <h1>Esta página mudou de endereço</h1>
+  <p>O MyPME passou a ter tudo no mesmo sítio. Vai ser reencaminhado.</p>
+  <p><a href="https://mypme-815e7.web.app/privacidade">Politica de Privacidade</a></p>
+</main>
+<script>location.replace('https://mypme-815e7.web.app/privacidade');</script>
 </body>
 </html>
